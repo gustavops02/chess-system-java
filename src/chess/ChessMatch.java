@@ -40,7 +40,7 @@ public class ChessMatch {
 	
 	private void validateSourcePosition(Position position) {
 		if (!board.ThereIsAPiece(position)) {
-			throw new ChessException("There is no piece on sourcez position.");
+			throw new ChessException("There is no piece on source position.");
 		}
 	}
 	private Piece makeMove(Position source, Position target) {
